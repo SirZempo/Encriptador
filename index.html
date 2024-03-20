@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" Content="IE=edge">
+		<title> Encriptador </title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="img/luciernaga.png" rel="shorcut icon">
+	</head>
+	<body>
+		<header class="encabezado">
+			<img class="encabezado-logo" src="img/logo.svg" alt="Logo">
+		</header>
+		<hr class="encabezado-hr">
+		<main>
+			<section class="seccion-texto">
+				<div class="contenedor-caja-texto">
+					<textarea class="caja-texto" placeholder="Ingrese su texto aqui"></textarea>
+				</div>
+				<div class="contenedor-alerta">
+					<img class="logo-alerta" src="img/peligro.png" alt="Alerta">					
+					<p> Solo letras <strong>minusculas</strong> y sin <strong>acentos</strong> </p>
+				</div>
+				<div class="contenedor-botones">
+					<input type="button" class="boton-encriptar" value="Encriptar"> 
+					<input type="button" class="boton-desencriptar" value="Desencriptar">
+				</div>
+			</section>
+			<section class="seccion-resultado">
+				<div class="contenedor-patapon">
+					<img class="patapon" src="img/dibujo.svg" alt="Dibujo">
+				</div>
+				<div class="contenedor-resultado ocultar">
+					<p class="resultado-texto"></p>
+				</div>
+				<div class="contenedor-parrafo">
+					<h3>Ningun mensaje fue <br> encontrado...</h3>
+					<p>Ingresa el texto que deseas encriptar o <br> desencriptar.</p>
+				</div>
+				<div class="contenedor-copiar">
+					<input class="boton-copiar" type="button" value="Copiar">
+				</div>
+				
+			</section>
+		</main>
+		<hr class="pie-hr">
+		<footer>
+			<p>
+				&copy Uriel Jimenez Zempoalteca
+			</p>
+		</footer>
+		<script src="app.js"></script>
+	</body>
+</html>
